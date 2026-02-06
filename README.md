@@ -87,3 +87,6 @@ Clone the repository:
 git clone https://github.com/dulithiduranga2/Web-Pinner.git
 cd Web-Pinner
 python tool.py
+
+<img width="455" height="154" alt="image" src="https://github.com/user-attachments/assets/9c4b6d53-4158-4912-add2-9facf723d5aa" />
+
