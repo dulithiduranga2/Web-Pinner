@@ -1,89 +1,44 @@
-#🌐 Web-Pinner
-<p align="center"> <b>Web-Pinner</b> is a lightweight Python-based network utility for checking the <b>ping (latency)</b> of websites and IP addresses. </p>
-🚀 Overview
+# 🌐 Web-Pinner
 
-Web-Pinner allows users to quickly test whether a website is reachable and how long it takes to respond.
-It’s designed for developers, students, and network learners who want a simple command-line tool for basic diagnostics.
+Web-Pinner is a lightweight Python-based network utility tool used to check the **ping (latency)** of websites and IP addresses.
 
-#✨ Key Features
+This tool helps users quickly test whether a website is reachable and how long it takes to respond.
 
-🔹 Ping any domain or IP address
+---
 
-🔹 Measure real-time latency
+## 🚀 Overview
 
-🔹 Simple CLI interface
+Web-Pinner is designed for:
+- Students learning networking
+- Developers doing quick connectivity checks
+- Anyone who wants a simple CLI ping tool
 
-🔹 No external libraries required
+It runs directly from the terminal and does not require any external libraries.
 
-🔹 Cross-platform (Windows / Linux / macOS)
+---
 
-#🛠 Tech Stack
+## ✨ Features
 
-Language: Python 3
+- Ping any website or IP address  
+- Displays response time (latency)  
+- Simple command-line interface  
+- Cross-platform (Windows / Linux / macOS)  
+- No external dependencies  
 
-Modules: os, time, subprocess
+---
 
-Platform: Terminal / Command Prompt
+## 🛠 Tech Stack
 
-#📦 Installation
+- Language: Python 3  
+- Built-in modules: `os`, `time`, `subprocess`  
+- Interface: Terminal / Command Prompt  
+
+---
+
+## 📦 Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/dulithiduranga2/Web-Pinner.git
 cd Web-Pinner
-#▶️ Usage
-
-Run the tool:
-
-python tool.py
-
-Enter a website or IP when prompted:
-
-Enter website: google.com
-#🧪 Sample Output
-Pinging google.com...
-Reply from 142.250.72.14: time=23ms
-Ping successful!
-#📁 Project Structure
-Web-Pinner/
-│
-├── tool.py
-└── README.md
-#🎯 Use Cases
-
-Check if a website is online
-
-Measure network delay
-
-Learning Python networking basics
-
-Troubleshooting connectivity issues
-
-#🔐 Security Note
-
-This tool only performs standard system-level ping requests.
-It does not collect, store, or send any user data.
-
-#🧠 Future Improvements (Planned)
-
-Multiple host pinging
-
-Export results to file
-
-GUI version
-
-Timeout and packet count options
-
-#👨‍💻 Author
-
-Dulith Iduranga
-GitHub: https://github.com/dulithiduranga2
-
-#📜 License
-
-This project is licensed under the MIT License.
-You are free to use, modify, and distribute it.
-
-#⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub!
